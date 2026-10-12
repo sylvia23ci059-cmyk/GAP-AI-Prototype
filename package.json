@@ -1,0 +1,17 @@
+{
+  "name": "gap-ai-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gap AI student growth prototype with role-based demo dashboards and optional Groq tutor",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "postgres": "^3.4.9",
+    "tesseract.js": "^7.0.0"
+  }
+}
